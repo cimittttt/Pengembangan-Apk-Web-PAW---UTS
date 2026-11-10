@@ -1,0 +1,124 @@
+.halaman {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.judul {
+  font-size: 1.6rem;
+  font-weight: 900;
+  color: #3D5200;
+  margin-bottom: 4px;
+}
+
+.subjudul {
+  color: #7A5040;
+  margin-bottom: 1.5rem;
+}
+
+.card {
+  background: white;
+  border: 2px solid #BBCA6F;
+  border-radius: 12px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.grup {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.label {
+  font-weight: 700;
+  color: #3D5200;
+  font-size: 0.9rem;
+}
+
+.input {
+  padding: 10px 14px;
+  border: 2px solid #BBCA6F;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  outline: none;
+  background: white;
+  color: #2D1810;
+}
+
+.input:focus {
+  border-color: #8E9546;
+}
+
+.hint {
+  font-size: 0.78rem;
+  color: #7A5040;
+}
+
+.error {
+  font-size: 0.8rem;
+  color: #c0394a;
+  font-weight: 600;
+}
+
+.paketGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.paketItem {
+  border: 2px solid #BBCA6F;
+  border-radius: 8px;
+  padding: 8px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.paketItem:hover { border-color: #8E9546; }
+.paketItem.dipilih { border-color: #8E9546; background: #FDFBD4; }
+
+.paketRobux {
+  font-weight: 800;
+  font-size: 0.9rem;
+  color: #3D5200;
+}
+
+.paketHarga {
+  font-size: 0.78rem;
+  color: #c0394a;
+  font-weight: 600;
+}
+
+.aksi {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.btnKembali {
+  padding: 10px 20px;
+  background: white;
+  border: 2px solid #BBCA6F;
+  border-radius: 8px;
+  color: #3D5200;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btnKembali:hover { background: #FDFBD4; }
+
+.btnLanjut {
+  flex: 1;
+  padding: 10px 20px;
+  background: #BBCA6F;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.btnLanjut:hover { background: #8E9546; }

@@ -1,0 +1,80 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: white;
+  border-bottom: 2px solid #BBCA6F;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 900;
+}
+
+.logoStar { color: #3D5200; }
+.logoBux  { color: #F28892; }
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.link {
+  color: #3D5200;
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 6px 12px;
+  border-radius: 8px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.link:hover,
+.link.active {
+  background: #FDFBD4;
+  color: #2D1810;
+}
+
+.btnLacak {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: white;
+  border: 2px solid #F28892;
+  color: #c0394a;
+  font-weight: 700;
+  font-size: 0.85rem;
+  padding: 6px 14px;
+  border-radius: 999px;
+  text-decoration: none;
+}
+
+.btnLacak:hover {
+  background: #F28892;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .link span { display: none; }
+}

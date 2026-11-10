@@ -1,0 +1,20 @@
+.halaman { text-align: center; padding: 5rem 1rem; }
+
+.kode { font-size: 6rem; font-weight: 900; color: #F28892; line-height: 1; margin-bottom: 1rem; }
+
+.judul { font-size: 1.5rem; font-weight: 800; color: #3D5200; margin-bottom: 0.5rem; }
+
+.subjudul { color: #7A5040; margin-bottom: 2rem; }
+
+.btn {
+  padding: 12px 28px;
+  background: #BBCA6F;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn:hover { background: #8E9546; }

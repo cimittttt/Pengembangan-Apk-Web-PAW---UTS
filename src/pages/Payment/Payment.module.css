@@ -1,0 +1,153 @@
+.halaman {
+  max-width: 650px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.judul { font-size: 1.6rem; font-weight: 900; color: #3D5200; }
+
+.card {
+  background: white;
+  border: 2px solid #BBCA6F;
+  border-radius: 12px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.judulCard { font-size: 1rem; font-weight: 800; color: #3D5200; }
+
+.tabel { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+
+.tabel td {
+  padding: 6px 4px;
+  color: #2D1810;
+  border-bottom: 1px solid #FDFBD4;
+}
+
+.tabel td:first-child { color: #7A5040; width: 45%; }
+
+.linkGP { word-break: break-all; font-size: 0.78rem; }
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0 0;
+  border-top: 2px solid #BBCA6F;
+  font-size: 1rem;
+  color: #2D1810;
+}
+
+.total strong { font-size: 1.2rem; color: #c0394a; }
+
+.metodeList { display: flex; flex-direction: column; gap: 8px; }
+
+.metodeItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 14px;
+  border: 2px solid #BBCA6F;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.metodeItem:hover { border-color: #8E9546; }
+.metodeItem.aktif  { border-color: #8E9546; background: #FDFBD4; }
+
+.metodeLabel { font-weight: 700; color: #2D1810; }
+.metodeDesc  { font-size: 0.8rem; color: #7A5040; }
+.metodeFee   { font-size: 0.82rem; font-weight: 700; color: #c0394a; }
+
+.subList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 8px 14px;
+  background: #FFF8F5;
+  border-radius: 0 0 10px 10px;
+}
+
+.subItem {
+  padding: 6px 14px;
+  border: 2px solid #BBCA6F;
+  border-radius: 999px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #3D5200;
+  cursor: pointer;
+}
+
+.subItem:hover { border-color: #8E9546; background: #FDFBD4; }
+.subItem.aktif { background: #BBCA6F; color: white; border-color: #BBCA6F; }
+
+.qrBox {
+  text-align: center;
+  padding: 1.5rem;
+  background: #FFF8F5;
+  border-radius: 10px;
+}
+
+.qrPlaceholder {
+  font-size: 2rem;
+  color: #3D5200;
+  font-weight: 700;
+  padding: 1rem;
+  border: 2px dashed #BBCA6F;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.nomorBox { text-align: center; padding: 1rem; background: #FFF8F5; border-radius: 10px; }
+.nomorLabel { font-size: 0.85rem; color: #7A5040; margin-bottom: 6px; }
+
+.nomor { font-size: 1.3rem; font-weight: 900; color: #3D5200; letter-spacing: 2px; }
+
+.instruksiBayar { font-size: 0.88rem; color: #2D1810; text-align: center; }
+
+.countdown { text-align: center; font-size: 1rem; color: #c0394a; font-weight: 700; }
+
+.btnBayar {
+  width: 100%;
+  padding: 14px;
+  background: #F28892;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.btnBayar:hover { background: #c0394a; }
+
+.aksi { display: flex; gap: 0.75rem; }
+
+.btnKembali {
+  padding: 10px 18px;
+  background: white;
+  border: 2px solid #BBCA6F;
+  border-radius: 8px;
+  color: #3D5200;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btnKembali:hover { background: #FDFBD4; }
+
+.btnLanjut {
+  flex: 1;
+  padding: 10px;
+  background: #BBCA6F;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btnLanjut:hover { background: #8E9546; }

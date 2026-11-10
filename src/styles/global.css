@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap');
+
+:root {
+  --c-olive:  #8E9546;
+  --c-sage:   #BBCA6F;
+  --c-yellow: #FDFBD4;
+  --c-peach:  #F2CFBB;
+  --c-blush:  #F1B4AF;
+  --c-rose:   #F28892;
+
+  --brand-primary:   #BBCA6F;
+  --brand-secondary: #F28892;
+  --brand-bg:        #FDFBD4;
+  --brand-card:      #FFFFFF;
+  --brand-border:    #BBCA6F;
+  --brand-text:      #2D1810;
+  --brand-muted:     #7A5040;
+  --brand-heading:   #3D5200;
+
+  font-family: 'Nunito', sans-serif;
+  color: #2D1810;
+  background-color: #FDFBD4;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #FDFBD4;
+  color: #2D1810;
+  font-family: 'Nunito', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+input, select, textarea {
+  font-family: inherit;
+  color: #2D1810;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.page-wrapper {
+  min-height: calc(100vh - 70px);
+  padding: 2rem 1rem;
+}

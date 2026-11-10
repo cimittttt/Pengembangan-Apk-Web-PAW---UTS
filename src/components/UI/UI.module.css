@@ -1,0 +1,164 @@
+/* Shared UI components CSS */
+
+/* PrimaryButton */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  font-weight: 800;
+  font-size: 0.95rem;
+  padding: 0.72rem 1.6rem;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.15s, box-shadow 0.15s, opacity 0.2s;
+  letter-spacing: 0.2px;
+  line-height: 1;
+}
+
+.btnPrimary {
+  background: linear-gradient(135deg, var(--c-rose), var(--c-blush));
+  color: #FFFFFF;
+  box-shadow: 0 4px 18px rgba(242, 136, 146, 0.35);
+}
+
+.btnPrimary:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 24px rgba(242, 136, 146, 0.48);
+}
+
+.btnOutline {
+  background: transparent;
+  border: 2px solid var(--c-olive);
+  color: var(--c-olive);
+}
+
+.btnOutline:hover:not(:disabled) {
+  border-color: var(--c-rose);
+  color: var(--c-rose);
+  background: rgba(242, 136, 146, 0.08);
+}
+
+.btnDanger {
+  background: linear-gradient(135deg, var(--c-rose), #dc5361);
+  color: white;
+}
+
+.btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+.btnFull { width: 100%; }
+
+/* InputField */
+.fieldWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.label {
+  font-weight: 700;
+  font-size: 0.875rem;
+  color: var(--c-olive);
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.inputWrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  background: var(--brand-card2);
+  border: 1.5px solid var(--c-sage);
+  border-radius: var(--radius-md);
+  padding: 0.7rem 2.4rem 0.7rem 0.9rem;
+  font-size: 0.925rem;
+  color: var(--brand-text);
+  transition: border-color 0.2s, box-shadow 0.2s;
+  width: 100%;
+}
+
+.input::placeholder { color: var(--brand-muted); opacity: 0.75; }
+
+.input:focus {
+  outline: none;
+  border-color: var(--c-rose);
+  box-shadow: 0 0 0 3px rgba(242, 136, 146, 0.2);
+}
+
+.inputError { border-color: var(--c-rose) !important; }
+
+.inputIconRight {
+  position: absolute;
+  right: 0.75rem;
+  pointer-events: none;
+}
+
+.error {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.78rem;
+  color: var(--c-rose);
+  font-weight: 700;
+}
+
+.hint {
+  font-size: 0.775rem;
+  color: var(--brand-muted);
+}
+
+/* StatusBadge */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.35rem 0.85rem;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.2px;
+  white-space: nowrap;
+}
+
+.badgeWaiting {
+  background: var(--c-yellow);
+  color: var(--c-olive);
+  border: 1.5px solid var(--c-sage);
+}
+
+.badgeProcess {
+  background: var(--c-peach);
+  color: var(--c-olive);
+  border: 1.5px solid var(--c-blush);
+}
+
+.badgeDone {
+  background: rgba(142, 149, 70, 0.18);
+  color: var(--c-olive);
+  border: 1.5px solid var(--c-olive);
+}
+
+.badgeFailed {
+  background: rgba(242, 136, 146, 0.18);
+  color: var(--c-rose);
+  border: 1.5px solid var(--c-rose);
+}
+
+/* Card */
+.card {
+  background: var(--brand-card);
+  border: 1.5px solid var(--c-sage);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+  box-shadow: 0 4px 20px rgba(142, 149, 70, 0.08);
+}

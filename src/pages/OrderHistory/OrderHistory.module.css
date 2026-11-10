@@ -1,0 +1,52 @@
+.halaman { max-width: 700px; margin: 0 auto; }
+
+.judul { font-size: 1.6rem; font-weight: 900; color: #3D5200; margin-bottom: 4px; }
+.subjudul { color: #7A5040; margin-bottom: 1.5rem; }
+
+.kosong { text-align: center; padding: 3rem 1rem; }
+
+.kosongIcon { font-size: 3rem; margin-bottom: 1rem; }
+.kosong p   { color: #7A5040; margin-bottom: 1rem; }
+
+.btnTopup {
+  padding: 10px 24px;
+  background: #BBCA6F;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btnTopup:hover { background: #8E9546; }
+
+.daftarPesanan { display: flex; flex-direction: column; gap: 1rem; }
+
+.pesananCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.2rem;
+  background: white;
+  border: 2px solid #BBCA6F;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.pesananCard:hover { border-color: #8E9546; background: #FAFFF5; }
+
+.kiri { display: flex; flex-direction: column; gap: 4px; }
+
+.nomorInvoice { font-weight: 800; color: #3D5200; font-family: monospace; font-size: 0.9rem; }
+.info  { font-size: 0.88rem; color: #2D1810; font-weight: 600; }
+.meta  { font-size: 0.78rem; color: #7A5040; }
+
+.kanan { display: flex; flex-direction: column; align-items: flex-end; gap: 6px; }
+
+.total { font-weight: 800; color: #c0394a; font-size: 0.95rem; }
+
+.status { padding: 3px 10px; border-radius: 999px; font-size: 0.75rem; font-weight: 700; }
+
+.statusMenunggu { background: #FDFBD4; color: #3D5200; }
+.statusDiproses { background: #FDFBD4; color: #7A3010; }
+.statusSelesai  { background: #d4edda; color: #155724; }
